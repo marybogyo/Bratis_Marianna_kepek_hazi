@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.szegely:hover{
+border: 3px solid blue;
+border-radius: 5px;
+}
+.kepek{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+img{
+  width: 100%; 
+  height: 100%; 
+  padding: 2px;
+}
+@media screen and (max-width:1300px) {
+    .kepek{
+        flex-wrap: wrap;
+     }
+}
+@media screen and (max-width:1200px) {
+    .kepek{
+        flex-wrap: wrap;
+     }
+}
+@media screen and (max-width:900px) {
+    .kepek{
+        flex-wrap: wrap;
+     }
+}
